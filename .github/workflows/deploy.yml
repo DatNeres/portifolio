@@ -10,7 +10,7 @@ jobs:
         with:
           node-version: '18.x'
       - run: yarn -i
-      - run: yarn build
+      - run: CI=false yarn build
       - uses: up9cloud/action-rsync@master
         env:
           HOST: ${{secrets.HOST}}
