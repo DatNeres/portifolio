@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  color: #fff;
+  background-image: linear-gradient(
+    123deg,
+    #008cff 0%,
+    #0468da 20%,
+    #57ffeb 80%
+  );
+}
+
+.button--github {
+  background: linear-gradient(to right, #6d6d6d, #333333);
+  background-color: #529ffa;
+  color: #fff;
+  width: 10rem;
+  height: 3.5rem;
+  font-family: Poppins;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  padding: 0 0.5rem 0 0;
+  border: 0px solid #000;
+  border-radius: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button--github span {
+  margin-right: 9px;
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-image: url(/public/images/main/icons/icons8-github.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(0deg);
+}
+.button--github:hover {
+  background: linear-gradient(to right, #6d6d6d, #535353);
+  transform: scale(1.05);
+}
+.button--github:active {
+  transform: scale(0.95);
+}
+
+.button--start {
+  background: linear-gradient(to right, #529ffa, #005bd2);
+  background-color: #529ffa;
+  color: #fff;
+  width: 10rem;
+  height: 3.5rem;
+  font-family: Poppins;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  padding: 0 0.5rem 0 0;
+  border: 0px solid #000;
+  border-radius: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button--start span {
+  margin-right: 9px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(/public/images/main/icons/icons8-play-64.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(0deg);
+}
+.button--start:hover {
+  background: linear-gradient(to right, #70abfb, #4776ec);
+  transform: scale(1.05);
+}
+.button--start:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 1280px) {
+  .button--github {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.1rem;
+  }
+  .button--github span {
+    margin-right: 9px;
+    width: 35px;
+    height: 35px;
+  }
+  .button--start {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.1rem;
+  }
+  .button--start span {
+    margin-right: 9px;
+    width: 35px;
+    height: 35px;
+  }
+}
