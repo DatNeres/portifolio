@@ -18,6 +18,6 @@ jobs:
           HOST: ${{secrets.HOST}}
           USER: ${{secrets.USER}}
           KEY: ${{secrets.SSH_KEY}}
+          TARGET: ${{secrets.TARGET}}
           SOURCE: ${{secrets.SOURCE}}
-          TARGET: ${{secrets.PATH}}
           VERBOSE: true
