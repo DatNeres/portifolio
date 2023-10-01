@@ -79,8 +79,8 @@ function IAInimigoOuAmigo() {
         </h3>
       </div>
       {isVisible && (
-        <div className="relative flex flex-col backdrop-blur-sm w-[50rem] h-[6rem] -top-24 -left-2 max-xl:w-[40rem] max-sm:w-[20rem]">
-          <button className="button--start self-center" onClick={readmore}>
+        <div className="relative flex flex-col backdrop-blur-sm w-[50rem] h-[6rem] -top-24 -left-2 max-xl:w-[40rem] max-sm:w-[22rem]">
+          <button className="button--blue self-center" onClick={readmore}>
             Continuar ⬇
           </button>
         </div>

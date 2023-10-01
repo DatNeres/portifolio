@@ -13,7 +13,7 @@ html {
   );
 }
 
-.button--github {
+.button--black {
   background: linear-gradient(to right, #6d6d6d, #333333);
   background-color: #529ffa;
   color: #fff;
@@ -32,7 +32,7 @@ html {
   align-items: center;
 }
 
-.button--github span {
+.button--black span {
   margin-right: 9px;
   display: block;
   width: 2.5rem;
@@ -42,15 +42,15 @@ html {
   background-size: contain;
   transform: rotate(0deg);
 }
-.button--github:hover {
+.button--black:hover {
   background: linear-gradient(to right, #6d6d6d, #535353);
   transform: scale(1.05);
 }
-.button--github:active {
+.button--black:active {
   transform: scale(0.95);
 }
 
-.button--start {
+.button--blue {
   background: linear-gradient(to right, #529ffa, #005bd2);
   background-color: #529ffa;
   color: #fff;
@@ -69,7 +69,7 @@ html {
   align-items: center;
 }
 
-.button--start span {
+.button--blue span {
   margin-right: 9px;
   display: block;
   width: 40px;
@@ -79,11 +79,11 @@ html {
   background-size: contain;
   transform: rotate(0deg);
 }
-.button--start:hover {
+.button--blue:hover {
   background: linear-gradient(to right, #70abfb, #4776ec);
   transform: scale(1.05);
 }
-.button--start:active {
+.button--blue:active {
   transform: scale(0.95);
 }
 
@@ -97,22 +97,22 @@ html {
 }
 
 @media (max-width: 1280px) {
-  .button--github {
+  .button--black {
     width: 8rem;
     height: 3rem;
     font-size: 1.1rem;
   }
-  .button--github span {
+  .button--black span {
     margin-right: 9px;
     width: 35px;
     height: 35px;
   }
-  .button--start {
+  .button--blue {
     width: 8rem;
     height: 3rem;
     font-size: 1.1rem;
   }
-  .button--start span {
+  .button--blue span {
     margin-right: 9px;
     width: 35px;
     height: 35px;

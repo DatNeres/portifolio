@@ -21,16 +21,13 @@ function AboutMe() {
         </div>
       </div>
       <p className="col-start-1 text-2xl font-Poppins">
-        Tenho 25 anos, estudante de Ciências da Computação, animado em explorar
-        novas línguas frameworks e libs. Acredito que a tecnologia é um meio
-        para melhorar a vida das pessoas.<br></br>
-        <span className="text-azul">
-          PESSOAS {"->"}TECNOLOGIA{"->"}PESSOAS
-        </span>
-        <br></br>
-        Priorizo a ética e responsabilidade em minha jornada, buscando criar
-        soluções criativas para problemas reais. O objetivo é usar a tecnologia
-        para empoderar e melhorar o cotidiano das pessoas, contribuindo para um
+        Olá, meu nome é Silvio. Sou estudante de Ciências da Computação,
+        apaixonado por tecnologia e entusiasta do desenvolvimento web. Acredito
+        que a tecnologia é um dos caminhos para melhorar e trazer mais igualdade
+        à vida das pessoas. <br></br>
+        Priorizo a ética e o respeito às diversidades. Busco soluções criativas
+        para problemas reais. Meu objetivo é utilizar a tecnologia para
+        empoderar e aprimorar o cotidiano das pessoas, contribuindo para um
         futuro melhor e mais inclusivo.
       </p>
       <div className="col-start-1">

@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 
 function Blog() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+    });
+  };
   return (
     <div>
       <div id="blog" className="px-40 max-xl:px-14 max-sm:px-4">
@@ -10,12 +15,12 @@ function Blog() {
       </div>
       <div className=" grid grid-cols-2 h-full grid-rows-1 space-y-12 pb-28 px-40 font-Righteous text-black max-xl:px-14 max-lg:pt-10 max-md:grid-cols-1 max-md:grid-rows-2 max-sm:px-4 ">
         <div className="flex flex-col col-start-1 row-start-1 w-3/4 justify-center items-start space-y-16 max-md:row-start-2 max-md:w-auto">
-          <p className="text-azul text-3xl max-2xl:text-2xl max-lg:text-xl">
-            O meu blog pessoal, é um pequeno espaço onde eu expresso minha
-            opinião sobre algumas coisas que gosto relacionadas a este universo
-            maravilhoso da tecnologia.
+          <p className="text-azul text-3xl mt-10 max-2xl:text-2xl max-lg:text-xl max-sm:text-gray-700">
+            Este é meu blog, é um pequeno espaço onde eu expresso minha opinião
+            sobre algumas coisas que gosto relacionadas ao universo da
+            tecnologia.
           </p>
-          <button className="button--github self-end mr-6">
+          <button className="button--black self-end mr-6" onClick={scrollToTop}>
             <Link to="/Blog">ACESSAR</Link>
           </button>
         </div>
