@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 const HandsAnimation = ({ children, animationType }) => {
   const animationVariants = {
     leftToRight: {
-      x: ["-95%", "0%"],
+      x: ["-90%", "0%"],
       transition: {
         duration: 2,
         delay: 0.5,
       },
     },
     rightToLeft: {
-      x: ["95%", "0%"],
+      x: ["90%", "0%"],
       transition: {
         duration: 2,
         delay: 0.5,
@@ -20,7 +20,6 @@ const HandsAnimation = ({ children, animationType }) => {
   const floatingAnimation = {
     floating: {
       rotate: [2, -2, 2],
-
       transition: {
         duration: 3,
         repeat: Infinity,

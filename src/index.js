@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import App from "./App.js";
-import Error404 from "./Components/Error/Error404.js";
+import App from "./Routes/App.js";
+import Error404 from "./Routes/Error404.js";
 import AppBlog from "./Components/App/Main/AppBlog.js";
 
 const router = createBrowserRouter([
