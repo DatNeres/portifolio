@@ -151,22 +151,22 @@ function Projects() {
             </div>
           </div>
           <div className="space-x-4 mt-10">
-            <a
+            <button
               className="button--black"
-              href="https://github.com/DatNeres/chat-elly"
-              target="_blank"
+              href=""
+              target=""
               rel="noopener noreferrer"
             >
-              <span></span>GITHUB
-            </a>
-            <a
+              <span></span>OFF !
+            </button>
+            <button
               className="button--blue"
-              href="https://silvioneres.dev/chat-elly/"
-              target="_blank"
+              href=""
+              target=""
               rel="noopener noreferrer"
             >
-              <span></span>INICIAR
-            </a>
+              <span></span>OFF !
+            </button>
           </div>
         </div>
         <div className="flex justify-end col-start-2 mr-[-11rem] mt-[2rem] max-xl:mr-[-4rem] max-md:col-start-1 max-md:row-start-1 max-lg:mt-0 max-md:mr-[-2rem] max-md:mt-[-6rem] max-sm:mt-0">
