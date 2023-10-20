@@ -1,6 +1,11 @@
 import HandsAnimation from "../UI/HandsAnimation";
-
+import { Link } from "react-router-dom";
 function Projects() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+    });
+  };
   return (
     <div>
       <div className="px-40 max-xl:px-14 max-sm:px-4">
@@ -123,57 +128,41 @@ function Projects() {
       <div className="h-full grid grid-cols-2 py-20 px-40 font-Righteous max-xl:px-14 max-md:px-4 max-md:grid-cols-1 max-md:grid-rows-2 max-md:py-10">
         <div className="grid col-start-1 content-center max-md:row-start-2 max-md:mt-10">
           <h1 className="text-5xl text-gray-700 max-2xl:text-4xl max-lg:text-3xl">
-            <span className="text-rosa">{"<h1>"}</span>CHAT-BOT: Elly é uma IA
-            totalmente interativa.
+            <span className="text-rosa">{"<h1>"}</span>ShieldRSA - Criptografia
+            de mensagens de texto.
             <span className="text-rosa">{"<h1>"}</span>
           </h1>
           <br></br>
           <p className="font-Poppins font-semibold text-3xl text-azul max-2xl:text-2xl max-lg:text-xl max-sm:text-gray-700">
-            Baseado na OPEN IA.<br></br>
-            Converse sobre tudo e optenha resposta de tudo, Elly é uma IA
-            alimenta pelo chat-GPT 3.5 Turbo.
+            Gere suas próprias chaves privadas e públicas, e proteja suas
+            mensagens com a tecnologia RSA.
           </p>
           <div className="mt-5 text-md text-gray-600">
             <div className="space-x-5 underline decoration-azul max-lg:space-x-2">
-              <span className="hover:underline decoration-cinza">
-                {" "}
-                JAVASCRIPT
-              </span>
-              <span className="hover:underline decoration-cinza">REACT</span>
-              <span className="hover:underline decoration-cinza">
-                TAILWINDCSS
-              </span>
-            </div>
-            <div className="space-x-5 underline decoration-rosa max-lg:space-x-2">
-              <span className="hover:underline decoration-azul">CSS</span>
-              <span className="hover:underline decoration-cinza">HTML</span>
-              <span className="hover:underline decoration-azul">PHOTOSHOP</span>
+              <span className="hover:underline decoration-cinza">Python</span>
+              <span className="hover:underline decoration-cinza">Tkinter</span>
             </div>
           </div>
           <div className="space-x-4 mt-10">
-            <button
+            <a
               className="button--black"
-              href=""
-              target=""
+              href="https://github.com/DatNeres/ShieldRSA"
+              target="_blank"
               rel="noopener noreferrer"
             >
-              <span></span>OFF !
-            </button>
-            <button
-              className="button--blue"
-              href=""
-              target=""
-              rel="noopener noreferrer"
-            >
-              <span></span>OFF !
+              <span></span> <button>GITHUB</button>
+            </a>
+            <button className="button--blue" onClick={scrollToTop}>
+              <span></span>
+              <Link to="/ShieldRSA">INICIAR</Link>
             </button>
           </div>
         </div>
-        <div className="flex justify-end col-start-2 mr-[-11rem] mt-[2rem] max-xl:mr-[-4rem] max-md:col-start-1 max-md:row-start-1 max-lg:mt-0 max-md:mr-[-2rem] max-md:mt-[-6rem] max-sm:mt-0">
+        <div className="flex justify-end col-start-2 mr-[-13rem] mt-[2rem] max-xl:mr-[-6rem] max-md:col-start-1 max-md:row-start-1 max-lg:mt-0 max-md:mr-[-2rem] max-md:mt-0">
           <HandsAnimation animationType="rightToLeft">
             <img
-              className="h-[48rem] max-2xl:h-[40rem] max-lg:h-[30rem] max-md:h-[30rem]"
-              src="/images/projects/chat-bot/hands.png"
+              className="h-[44rem] max-2xl:h-[32rem] max-xl:h-[28rem] max-lg:h-[20rem] max-md:h-[22rem]"
+              src="/images/projects/ShieldRSA/hands.png"
               alt="mão segurando celular"
             />
           </HandsAnimation>

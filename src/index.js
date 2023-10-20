@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./Routes/App.js";
 import Error404 from "./Routes/Error404.js";
 import AppBlog from "./Components/App/Main/AppBlog.js";
+import DownloadPage from "./Routes/DownloadPage.js";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "Blog",
     element: <AppBlog />,
+  },
+  {
+    path: "ShieldRSA",
+    element: <DownloadPage />,
   },
 ]);
 
