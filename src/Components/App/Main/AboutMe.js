@@ -11,8 +11,8 @@ function AboutMe() {
       </div>
       <div className="flex flex-row col-start-1 font-medium">
         <img
-          className="col-start-1 row-start-2 w-32 rounded-full shadow-lg border-solid border-2 border-white"
-          src="/images/main/profile/silvio.jpg"
+          className="col-start-1 row-start-2 w-32 rounded-full border-2 border-gray-200 shadow-lg"
+          src="/images/main/profile/silvio.jpeg"
           alt="Silvio"
         ></img>
         <div className="self-center ml-10">
