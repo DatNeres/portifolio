@@ -3,13 +3,16 @@ import { useState } from "react";
 function ContactMe() {
   const [text, setText] = useState("silvio.mneres@gmail.com");
   const [logo, setLogo] = useState("/images/main/icons/icons8-mail.png");
+  const [contactMe, setContactMe] = useState("contact me");
 
   const textToCopy = () => {
     navigator.clipboard.writeText(text);
     setLogo("/images/main/icons/icons8-check.png");
+    setContactMe("copied!");
     setTimeout(() => {
       setLogo("/images/main/icons/icons8-mail.png");
-    }, 500);
+      setContactMe("contact me");
+    }, 800);
   };
   return (
     <div className="flex flex-wrap flex-col items-center py-20 gap-10">
@@ -17,7 +20,7 @@ function ContactMe() {
         id="contact-me"
         className="text-7xl text-rosa font-Righteous max-lg:text-6xl max-md:text-5xl"
       >
-        contact me
+        {contactMe}
       </h1>
       <div className="flex">
         <img
