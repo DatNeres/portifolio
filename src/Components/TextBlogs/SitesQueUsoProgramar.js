@@ -20,7 +20,7 @@ function SitesQueUsoProgramar() {
       <div className="flex flex-row self-end justify-self-center space-x-2 h-20 mr-10">
         <img
           className="w-10 h-10 rounded-full  border-2 border-white"
-          src="/images/main/profile/silvio.jpg"
+          src="/images/main/profile/silvio.jpeg"
         ></img>
         <h3 className="text-md text-rosa mt-2">Silvio Neres - 05/09/2023</h3>
       </div>
