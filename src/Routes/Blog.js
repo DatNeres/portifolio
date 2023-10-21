@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 
 function Blog() {
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-    });
+    setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+      });
+    }, 100);
   };
   return (
     <div>
