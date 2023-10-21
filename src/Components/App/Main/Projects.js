@@ -46,7 +46,7 @@ function Projects() {
             </a>
             <a
               className="button--blue"
-              href="https://silvioneres.dev/hypercursos/"
+              href="https://silvioneres.dev/painel-do-aluno"
               target="_blank"
               rel="noopener noreferrer"
             >
